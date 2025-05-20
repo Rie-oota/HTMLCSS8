@@ -4,6 +4,7 @@
 body {
   color: #383e45;
   font-size: 0.9rem;
+  margin: 0;
 }
 
 #header {
@@ -15,8 +16,8 @@ body {
 
 .wrapper {
   max-width: 960px;
-  margin: 0 auto 100px;
   padding: 0 4%;
+  margin: 0 auto 100px;
   text-align: center;
 }
 
@@ -24,6 +25,7 @@ body {
   width: 120px;
   line-height: 1px;
   padding: 10px 0;
+  margin: 0;
 }
 
 .site-title a {
@@ -42,6 +44,10 @@ img {
 #header ul {
   display: flex;
   padding: 10px 0;
+}
+
+ul {
+  margin: 0;
 }
 
 #header li {
@@ -107,6 +113,11 @@ li {
 
 #bicycle li {
   width: 32%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 footer {
